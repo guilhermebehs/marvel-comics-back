@@ -1,0 +1,28 @@
+{
+  "name": "marvel-comics-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:prod": "node dist/src/index.js",
+    "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-mailjet": "^3.3.1",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.9",
+    "@types/node-mailjet": "^3.3.4",
+    "ts-node-dev": "^1.1.1"
+  }
+}
